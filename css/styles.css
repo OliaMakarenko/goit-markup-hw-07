@@ -898,14 +898,14 @@ img {
 
 /* work examples */
 
-.portfolio__list {
+.button-list {
   display: flex;
   justify-content: center;
 
   margin-bottom: 50px;
 }
 
-.portfolio__item:not(:last-child) {
+.button-item:not(:last-child) {
   margin-right: 8px;
 }
 
@@ -953,7 +953,7 @@ img {
   cursor: pointer;
 }
 
-.card-set__link {
+.work-exmpl-link {
   display: block;
 
   transition: transform var(--anim), box-shadow var(--anim);
