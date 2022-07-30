@@ -1,9 +1,13 @@
-.section__about {
-  padding-top: 0;
+.about {
+  @extend %section;
+
+  &__list {
+    --items: 3;
+  }
 }
 
-.about__list {
-  --items: 3;
+.section__about {
+  padding-top: 0;
 }
 
 .about__item {
@@ -12,6 +16,10 @@
 
 .about__img {
   display: block;
+}
+
+.about__title {
+  margin-bottom: 50px;
 }
 
 .about__desc {
