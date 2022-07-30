@@ -1,0 +1,25 @@
+.title {
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 1.14;
+}
+
+.features__title {
+  margin-bottom: 10px;
+}
+
+.title--black {
+  color: var(--secondary-txt-cl);
+}
+.features__iconfill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+
+  width: 270px;
+  height: 120px;
+
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
